@@ -55,4 +55,4 @@ buttonContainer.addEventListener('click', function(event) {
     }
 })
 
-// Commit 4: Form and Focus event logic verified.
+// Commit 5: Event delegation logic finalized.
