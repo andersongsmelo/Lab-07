@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <div>
+        <h2>1- Mouse Events (hover)</h2>
+        <button id="hoverButton">Hover over me</button>
+        <p id="mouseMsg">Waiting for interaction...</p>
+    </div>
+
+    <div>
+        <h2>2- Keyboard events</h2>
+        <input type="text" id="keyInput" placeholder="Type Something Here">
+        <p id="keyMsg">The latest key pressed: None</p>
+    </div>
+
+    <div>
+        <h2>3- Form Events</h2>
+        <form id="simpleForm">
+            <input type="text" placeholder="Your Name" required>
+            <button type="submit">Send Form</button>
+        </form>
+        <p id="formMsg"></p>
+    </div>
+
+    <div>
+        <h2>4- Focus and Blur Events</h2>
+        <input type="text" id="focusInput" placeholder="Click inside and out...">
+        <p id="focusMsg">Field Status: Inative</p>
+    </div>
+
+    <div>
+        <h2>5- Event Delegation</h2>
+        <div id="buttonContainer">
+            <button data-info="Button A clicked!">Option A</button>
+            <button data-info="Button B clicked!">Option B</button>
+            <button data-info="Button C clicked!">Option C</button>
+        </div>
+        <p id="delegationMsg">Any button was clicked</p>
+    </div>
+    
+</body>
+</html>
