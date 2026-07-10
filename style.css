@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    border: 1px solid black;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+Button {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+#keyInput, #focusInput {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: lightblue;
+    font-style: italic;
+    padding: 5px;
+}
+
+#simpleForm, #buttonContainer {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: lightblue;
+    padding: 5px;
+    margin-right: 10px;
+}
